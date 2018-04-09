@@ -18,7 +18,7 @@ header {
   }
 
 .left-head {
-  margin: 82px 5px 0 20px;
+  margin: 50px 5px 0 20px;
 }
 
 .right-head {
@@ -59,14 +59,37 @@ header {
   width: 25px;
 }
 
+button:hover {
+  background: #3071A9;
+  height: 100%;
+  cursor: pointer;
+}
+
+.profile:hover {
+  background: #3071A9;
+  cursor: pointer;
+  color: white;
+}
+
+.over-button:hover {
+  background: #3071A9;
+  cursor: pointer;
+  color: white;
+}
+
 main {
   background-color: #F0EEEE;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 
 h2 {
+  background-color: #F0EEEE;
+  margin: auto;
+  padding: 20px 0 0 24px;
+  color: #3e4247;
+  font-size: 1.4em;
 
 }
 
@@ -149,6 +172,7 @@ h2 {
     background-color: #E8E7E7;
     font-size: .8em;
     margin-top: 19px;
+    overflow-wrap: break-word;
   }
 h6 {
   font-size: 
@@ -203,7 +227,7 @@ h6 {
 
   .profile {
     font-size: .7em;
-    margin: 0 3px 25px 0;
+    margin: 0 3px 28px 17px;
   }
 
   .profile-icons {
@@ -296,10 +320,10 @@ button:hover {
 
 .profile {
   font-size: .9em;
-  width: 17vw;
   display: flex;
   justify-content: flex-end;
   margin: 4px 19px 24px 40px;
+  width: 17vw;
 }
 
 .logo {
@@ -314,6 +338,7 @@ button:hover {
 
 .link {
   font-size: .6em;
+  overflow-wrap: break-word;
   }
 }
 
@@ -322,20 +347,25 @@ button:hover {
   and (min-width: 670px) 
   and (max-width: 1050px) {
     .left-head {
-      margin: 36px 0 25px 5px;
-      font-size: .8em;
       display: flex;
+      font-size: .8em;
+      margin: 36px 0 25px 5px;
     }
 
     .logo {
       height: 6vh;
-      width: 16vw;
       margin: -3px 0 0 29px;
+      width: 16vw;
 
     }
 
     .profile {
       font-size: .8em;
+    }
+
+    a {
+      overflow-wrap: break-word;
+      font-size: .6em;
     }
 
   }
