@@ -5,6 +5,7 @@
   font-size: 1rem;
 }
 
+
 /* header */
 header {
   background-color: #3e4247;
@@ -18,7 +19,7 @@ header {
   }
 
 .left-head {
-  margin: 53px 5px 0 20px;
+  margin: 73px 5px 0 20px;
 }
 
 .right-head {
