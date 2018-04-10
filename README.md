@@ -9,3 +9,4 @@
  
  <img src="http://frontend.turing.io/assets/images/static-comp-challenge-2.jpg">
 
+<img src="https://github.com/kevinkrom787/kk-comp-challenge-2/blob/master/Screen%20Shot%202018-04-10%20at%208.03.15%20AM.png">
